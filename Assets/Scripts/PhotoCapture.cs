@@ -22,7 +22,7 @@ public class PhotoCapture : MonoBehaviour
 
     private string CreateCatalog()
     {
-        string path = Application.dataPath;
+        string path = @"C:/Documents";
         string subpath = @"Output/";
         DirectoryInfo dirInfo = new DirectoryInfo(path);
         if (!dirInfo.Exists)
